@@ -1,125 +1,62 @@
 # 金价信息记录网站
 
-这是一个记录每日金价的网站
+每日自动记录金价数据的网站，通过 GitHub Actions 定时获取京东金融金价数据。
 
-## 技术栈：
+## 技术栈
 
- - Vite、Vue3
- - Github Action
+- React + TypeScript + Vite
+- TailwindCSS + @coss/ui
+- ECharts
+- GitHub Actions + GitHub Pages
 
-## 功能板块
+## 功能
 
-### 历史金价
+### 首页
+- 年度金价趋势图
+- 当前最新金价、涨跌幅
+- 日期选择器跳转到详情页
 
- - 打开页面时优先展示年度数据，点击之后再切换为具体日期的数据；
- - 使用 Github Action 每天 24:00 前，通过接口获取当天的金价数据，生成 json 文件记录到一个文件夹中，json 文件可以使用当天的日期命名；同时请求历史数据，记录年度数据；
- - 页面直接通过获取 github 文件的方式读取json文件，项目代码会存在公开项目，可以直接访问
+### 详情页
+- 当日金价走势图
+- 开盘价、收盘价、最高/最低价
+- 前后日期切换
 
-## 接口
+## 数据来源
 
-来源：京东金融
+京东金融 API：
 
-### 获取当天金价折线图数据
+| 接口 | 用途 |
+|------|------|
+| `todayPrices` | 当天金价走势 |
+| `latestPrice` | 最新金价 |
+| `historyPrices` | 历史金价（年度） |
 
- - url: https://ms.jr.jd.com/gw/generic/hj/h5/m/todayPrices
- - 请求类型: POST
- - 请求参数: 无
+## 数据存储
 
-#### 响应示例
-
-```json
-{
-  "resultData": {
-    "datas": [
-      {
-        "name": "2025-04-21 09:06:00",
-        "value": [
-          "2025-04-21 09:06:00",
-          "799.37"
-        ]
-      },
-      {
-        "name": "2025-04-21 09:08:00",
-        "value": [
-          "2025-04-21 09:08:00",
-          "799.86"
-        ]
-      },
-    ],
-    "status": "SUCCESS"
-  },
-  "success": true,
-  "resultCode": 0,
-  "resultMsg": "成功",
-  "channelEncrypt": 0
-}
+```
+data/
+├── yearly/
+│   └── 2025.json       # 年度汇总
+└── 2025/
+    └── 04/
+        └── 21.json     # 每日数据
 ```
 
-### 获取最新金价
+GitHub Actions 每天 23:55-23:59 多次执行，确保数据获取成功。
 
- - url: https://ms.jr.jd.com/gw/generic/hj/h5/m/latestPrice
- - 请求类型: POST
- - 请求参数: 无
+## 开发
 
-#### 响应示例
+```bash
+# 安装依赖
+pnpm install
 
-```json
-  {
-    "resultData": {
-      "datas": {
-        "upAndDownRate": "+2.61%",
-        "productSku": "P005",
-        "demode": false,
-        "priceNum": "EDF5E4E3CA8C8B7D7B4E5A233D9F01A6",
-        "price": "808.95",
-        "yesterdayPrice": "788.38",
-        "upAndDownAmt": "+20.57",
-        "time": "1745247178000",
-        "id": 69633103
-      },
-      "status": "SUCCESS"
-    },
-    "success": true,
-    "resultCode": 0,
-    "resultMsg": "成功",
-    "channelEncrypt": 0
-  }
+# 开发
+pnpm dev
+
+# 构建
+pnpm build
 ```
 
-### 获取历史金价
+## 许可
 
- - url: https://ms.jr.jd.com/gw/generic/hj/h5/m/historyPrices
- - 请求类型: POST
- - 请求参数: 
-  - query: reqData: {"period":"y"}
-
-#### 响应示例
-
-```json
-{
-  "resultData": {
-    "datas": [
-      {
-        "name": "2025-04-21 09:06:00",
-        "value": [
-          "2025-04-21 09:06:00",
-          "799.37"
-        ]
-      },
-      {
-        "name": "2025-04-21 09:08:00",
-        "value": [
-          "2025-04-21 09:08:00",
-          "799.86"
-        ]
-      },
-    ],
-    "status": "SUCCESS"
-  },
-  "success": true,
-  "resultCode": 0,
-  "resultMsg": "成功",
-  "channelEncrypt": 0
-}
-```
- 
+MIT
