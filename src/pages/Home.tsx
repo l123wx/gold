@@ -4,6 +4,11 @@ import dayjs from 'dayjs'
 import { useYearlyData } from '../hooks/useGoldPrice'
 import { PriceChart } from '../components/PriceChart'
 
+interface YearlyDataItem {
+  price: string
+  time: string
+}
+
 export default function Home() {
   const navigate = useNavigate()
   const year = dayjs().format('YYYY')
@@ -36,7 +41,16 @@ export default function Home() {
     )
   }
 
-  const chartData = data?.resultData?.datas || []
+  // 年度数据格式: { price, time } - 需要转换为图表格式
+  const rawData: YearlyDataItem[] = data?.resultData?.datas || []
+  const chartData = rawData.map((item: YearlyDataItem) => {
+    const date = dayjs(parseInt(item.time)).format('YYYY-MM-DD')
+    return {
+      name: date,
+      value: [date, item.price] as [string, string]
+    }
+  })
+
   const latestPoint = chartData[chartData.length - 1]
   const prevPoint = chartData[chartData.length - 2]
   const latestPrice = latestPoint ? parseFloat(latestPoint.value[1]) : 0
