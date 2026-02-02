@@ -1,0 +1,1246 @@
+{
+  "resultData": {
+    "datas": [
+      {
+        "demode": false,
+        "price": "664.4500",
+        "time": "1738684800000"
+      },
+      {
+        "demode": false,
+        "price": "666.0600",
+        "time": "1738771200000"
+      },
+      {
+        "demode": false,
+        "price": "665.9200",
+        "time": "1738857600000"
+      },
+      {
+        "demode": false,
+        "price": "671.7600",
+        "time": "1739116800000"
+      },
+      {
+        "demode": false,
+        "price": "679.4300",
+        "time": "1739203200000"
+      },
+      {
+        "demode": false,
+        "price": "679.7400",
+        "time": "1739289600000"
+      },
+      {
+        "demode": false,
+        "price": "681.3700",
+        "time": "1739376000000"
+      },
+      {
+        "demode": false,
+        "price": "685.2400",
+        "time": "1739462400000"
+      },
+      {
+        "demode": false,
+        "price": "673.9100",
+        "time": "1739721600000"
+      },
+      {
+        "demode": false,
+        "price": "675.9700",
+        "time": "1739808000000"
+      },
+      {
+        "demode": false,
+        "price": "684.9000",
+        "time": "1739894400000"
+      },
+      {
+        "demode": false,
+        "price": "685.4500",
+        "time": "1739980800000"
+      },
+      {
+        "demode": false,
+        "price": "683.4400",
+        "time": "1740067200000"
+      },
+      {
+        "demode": false,
+        "price": "681.2600",
+        "time": "1740326400000"
+      },
+      {
+        "demode": false,
+        "price": "686.1400",
+        "time": "1740412800000"
+      },
+      {
+        "demode": false,
+        "price": "677.4500",
+        "time": "1740499200000"
+      },
+      {
+        "demode": false,
+        "price": "679.0300",
+        "time": "1740585600000"
+      },
+      {
+        "demode": false,
+        "price": "672.5500",
+        "time": "1740672000000"
+      },
+      {
+        "demode": false,
+        "price": "670.8100",
+        "time": "1740931200000"
+      },
+      {
+        "demode": false,
+        "price": "675.0800",
+        "time": "1741017600000"
+      },
+      {
+        "demode": false,
+        "price": "679.7200",
+        "time": "1741104000000"
+      },
+      {
+        "demode": false,
+        "price": "678.4700",
+        "time": "1741190400000"
+      },
+      {
+        "demode": false,
+        "price": "676.3000",
+        "time": "1741276800000"
+      },
+      {
+        "demode": false,
+        "price": "678.6400",
+        "time": "1741536000000"
+      },
+      {
+        "demode": false,
+        "price": "674.5000",
+        "time": "1741622400000"
+      },
+      {
+        "demode": false,
+        "price": "677.1200",
+        "time": "1741708800000"
+      },
+      {
+        "demode": false,
+        "price": "681.6000",
+        "time": "1741795200000"
+      },
+      {
+        "demode": false,
+        "price": "694.0800",
+        "time": "1741881600000"
+      },
+      {
+        "demode": false,
+        "price": "693.7900",
+        "time": "1742140800000"
+      },
+      {
+        "demode": false,
+        "price": "695.0100",
+        "time": "1742227200000"
+      },
+      {
+        "demode": false,
+        "price": "703.2300",
+        "time": "1742313600000"
+      },
+      {
+        "demode": false,
+        "price": "707.0200",
+        "time": "1742400000000"
+      },
+      {
+        "demode": false,
+        "price": "708.1700",
+        "time": "1742486400000"
+      },
+      {
+        "demode": false,
+        "price": "704.2100",
+        "time": "1742745600000"
+      },
+      {
+        "demode": false,
+        "price": "702.5900",
+        "time": "1742832000000"
+      },
+      {
+        "demode": false,
+        "price": "704.2000",
+        "time": "1742918400000"
+      },
+      {
+        "demode": false,
+        "price": "705.0500",
+        "time": "1743004800000"
+      },
+      {
+        "demode": false,
+        "price": "713.3000",
+        "time": "1743091200000"
+      },
+      {
+        "demode": false,
+        "price": "722.1200",
+        "time": "1743350400000"
+      },
+      {
+        "demode": false,
+        "price": "729.3200",
+        "time": "1743436800000"
+      },
+      {
+        "demode": false,
+        "price": "730.1100",
+        "time": "1743523200000"
+      },
+      {
+        "demode": false,
+        "price": "733.4900",
+        "time": "1743609600000"
+      },
+      {
+        "demode": false,
+        "price": "719.2900",
+        "time": "1743955200000"
+      },
+      {
+        "demode": false,
+        "price": "710.0700",
+        "time": "1744041600000"
+      },
+      {
+        "demode": false,
+        "price": "716.0300",
+        "time": "1744128000000"
+      },
+      {
+        "demode": false,
+        "price": "733.1300",
+        "time": "1744214400000"
+      },
+      {
+        "demode": false,
+        "price": "748.2700",
+        "time": "1744300800000"
+      },
+      {
+        "demode": false,
+        "price": "762.4100",
+        "time": "1744560000000"
+      },
+      {
+        "demode": false,
+        "price": "757.5000",
+        "time": "1744646400000"
+      },
+      {
+        "demode": false,
+        "price": "762.8100",
+        "time": "1744732800000"
+      },
+      {
+        "demode": false,
+        "price": "789.1400",
+        "time": "1744819200000"
+      },
+      {
+        "demode": false,
+        "price": "785.2200",
+        "time": "1744905600000"
+      },
+      {
+        "demode": false,
+        "price": "798.5900",
+        "time": "1745164800000"
+      },
+      {
+        "demode": false,
+        "price": "812.4800",
+        "time": "1745251200000"
+      },
+      {
+        "demode": false,
+        "price": "810.4000",
+        "time": "1745337600000"
+      },
+      {
+        "demode": false,
+        "price": "780.4900",
+        "time": "1745424000000"
+      },
+      {
+        "demode": false,
+        "price": "794.4600",
+        "time": "1745510400000"
+      },
+      {
+        "demode": false,
+        "price": "776.5000",
+        "time": "1745769600000"
+      },
+      {
+        "demode": false,
+        "price": "789.9000",
+        "time": "1745856000000"
+      },
+      {
+        "demode": false,
+        "price": "782.1500",
+        "time": "1745942400000"
+      },
+      {
+        "demode": false,
+        "price": "794.7200",
+        "time": "1746460800000"
+      },
+      {
+        "demode": false,
+        "price": "805.9200",
+        "time": "1746547200000"
+      },
+      {
+        "demode": false,
+        "price": "790.9800",
+        "time": "1746633600000"
+      },
+      {
+        "demode": false,
+        "price": "779.6400",
+        "time": "1746720000000"
+      },
+      {
+        "demode": false,
+        "price": "767.3200",
+        "time": "1746979200000"
+      },
+      {
+        "demode": false,
+        "price": "756.9300",
+        "time": "1747065600000"
+      },
+      {
+        "demode": false,
+        "price": "761.7100",
+        "time": "1747152000000"
+      },
+      {
+        "demode": false,
+        "price": "743.6800",
+        "time": "1747238400000"
+      },
+      {
+        "demode": false,
+        "price": "754.4500",
+        "time": "1747324800000"
+      },
+      {
+        "demode": false,
+        "price": "749.3800",
+        "time": "1747584000000"
+      },
+      {
+        "demode": false,
+        "price": "752.1500",
+        "time": "1747670400000"
+      },
+      {
+        "demode": false,
+        "price": "767.1300",
+        "time": "1747756800000"
+      },
+      {
+        "demode": false,
+        "price": "773.0400",
+        "time": "1747843200000"
+      },
+      {
+        "demode": false,
+        "price": "768.7000",
+        "time": "1747929600000"
+      },
+      {
+        "demode": false,
+        "price": "774.4100",
+        "time": "1748188800000"
+      },
+      {
+        "demode": false,
+        "price": "773.6300",
+        "time": "1748275200000"
+      },
+      {
+        "demode": false,
+        "price": "765.9300",
+        "time": "1748361600000"
+      },
+      {
+        "demode": false,
+        "price": "761.9200",
+        "time": "1748448000000"
+      },
+      {
+        "demode": false,
+        "price": "768.4200",
+        "time": "1748534400000"
+      },
+      {
+        "demode": false,
+        "price": "766.7300",
+        "time": "1748793600000"
+      },
+      {
+        "demode": false,
+        "price": "782.2900",
+        "time": "1748880000000"
+      },
+      {
+        "demode": false,
+        "price": "777.1300",
+        "time": "1748966400000"
+      },
+      {
+        "demode": false,
+        "price": "780.0200",
+        "time": "1749052800000"
+      },
+      {
+        "demode": false,
+        "price": "774.6400",
+        "time": "1749139200000"
+      },
+      {
+        "demode": false,
+        "price": "763.3300",
+        "time": "1749398400000"
+      },
+      {
+        "demode": false,
+        "price": "769.7300",
+        "time": "1749484800000"
+      },
+      {
+        "demode": false,
+        "price": "769.8100",
+        "time": "1749571200000"
+      },
+      {
+        "demode": false,
+        "price": "778.0400",
+        "time": "1749657600000"
+      },
+      {
+        "demode": false,
+        "price": "781.6900",
+        "time": "1749744000000"
+      },
+      {
+        "demode": false,
+        "price": "794.3100",
+        "time": "1750003200000"
+      },
+      {
+        "demode": false,
+        "price": "779.4500",
+        "time": "1750089600000"
+      },
+      {
+        "demode": false,
+        "price": "781.6200",
+        "time": "1750176000000"
+      },
+      {
+        "demode": false,
+        "price": "777.8800",
+        "time": "1750262400000"
+      },
+      {
+        "demode": false,
+        "price": "775.8000",
+        "time": "1750348800000"
+      },
+      {
+        "demode": false,
+        "price": "776.4600",
+        "time": "1750608000000"
+      },
+      {
+        "demode": false,
+        "price": "777.5500",
+        "time": "1750694400000"
+      },
+      {
+        "demode": false,
+        "price": "767.1600",
+        "time": "1750780800000"
+      },
+      {
+        "demode": false,
+        "price": "770.5400",
+        "time": "1750867200000"
+      },
+      {
+        "demode": false,
+        "price": "768.5600",
+        "time": "1750953600000"
+      },
+      {
+        "demode": false,
+        "price": "758.2700",
+        "time": "1751212800000"
+      },
+      {
+        "demode": false,
+        "price": "764.4300",
+        "time": "1751299200000"
+      },
+      {
+        "demode": false,
+        "price": "770.5100",
+        "time": "1751385600000"
+      },
+      {
+        "demode": false,
+        "price": "775.3800",
+        "time": "1751472000000"
+      },
+      {
+        "demode": false,
+        "price": "769.0300",
+        "time": "1751558400000"
+      },
+      {
+        "demode": false,
+        "price": "766.0500",
+        "time": "1751817600000"
+      },
+      {
+        "demode": false,
+        "price": "771.7900",
+        "time": "1751904000000"
+      },
+      {
+        "demode": false,
+        "price": "764.1700",
+        "time": "1751990400000"
+      },
+      {
+        "demode": false,
+        "price": "766.1800",
+        "time": "1752076800000"
+      },
+      {
+        "demode": false,
+        "price": "767.5800",
+        "time": "1752163200000"
+      },
+      {
+        "demode": false,
+        "price": "773.1400",
+        "time": "1752422400000"
+      },
+      {
+        "demode": false,
+        "price": "770.2800",
+        "time": "1752508800000"
+      },
+      {
+        "demode": false,
+        "price": "768.0900",
+        "time": "1752595200000"
+      },
+      {
+        "demode": false,
+        "price": "772.1200",
+        "time": "1752681600000"
+      },
+      {
+        "demode": false,
+        "price": "771.6800",
+        "time": "1752768000000"
+      },
+      {
+        "demode": false,
+        "price": "773.9300",
+        "time": "1753027200000"
+      },
+      {
+        "demode": false,
+        "price": "780.5000",
+        "time": "1753113600000"
+      },
+      {
+        "demode": false,
+        "price": "787.3700",
+        "time": "1753200000000"
+      },
+      {
+        "demode": false,
+        "price": "777.5500",
+        "time": "1753286400000"
+      },
+      {
+        "demode": false,
+        "price": "772.2300",
+        "time": "1753372800000"
+      },
+      {
+        "demode": false,
+        "price": "767.3000",
+        "time": "1753632000000"
+      },
+      {
+        "demode": false,
+        "price": "765.4900",
+        "time": "1753718400000"
+      },
+      {
+        "demode": false,
+        "price": "767.9300",
+        "time": "1753804800000"
+      },
+      {
+        "demode": false,
+        "price": "759.3000",
+        "time": "1753891200000"
+      },
+      {
+        "demode": false,
+        "price": "764.0700",
+        "time": "1753977600000"
+      },
+      {
+        "demode": false,
+        "price": "775.3700",
+        "time": "1754236800000"
+      },
+      {
+        "demode": false,
+        "price": "778.0400",
+        "time": "1754323200000"
+      },
+      {
+        "demode": false,
+        "price": "778.7300",
+        "time": "1754409600000"
+      },
+      {
+        "demode": false,
+        "price": "776.4700",
+        "time": "1754496000000"
+      },
+      {
+        "demode": false,
+        "price": "781.9800",
+        "time": "1754582400000"
+      },
+      {
+        "demode": false,
+        "price": "776.9900",
+        "time": "1754841600000"
+      },
+      {
+        "demode": false,
+        "price": "770.3100",
+        "time": "1754928000000"
+      },
+      {
+        "demode": false,
+        "price": "771.2000",
+        "time": "1755014400000"
+      },
+      {
+        "demode": false,
+        "price": "772.3800",
+        "time": "1755100800000"
+      },
+      {
+        "demode": false,
+        "price": "768.9100",
+        "time": "1755187200000"
+      },
+      {
+        "demode": false,
+        "price": "771.5500",
+        "time": "1755446400000"
+      },
+      {
+        "demode": false,
+        "price": "769.8300",
+        "time": "1755532800000"
+      },
+      {
+        "demode": false,
+        "price": "765.7000",
+        "time": "1755619200000"
+      },
+      {
+        "demode": false,
+        "price": "772.9200",
+        "time": "1755705600000"
+      },
+      {
+        "demode": false,
+        "price": "770.8800",
+        "time": "1755792000000"
+      },
+      {
+        "demode": false,
+        "price": "773.9700",
+        "time": "1756051200000"
+      },
+      {
+        "demode": false,
+        "price": "773.1300",
+        "time": "1756137600000"
+      },
+      {
+        "demode": false,
+        "price": "779.5200",
+        "time": "1756224000000"
+      },
+      {
+        "demode": false,
+        "price": "780.4000",
+        "time": "1756310400000"
+      },
+      {
+        "demode": false,
+        "price": "781.3500",
+        "time": "1756396800000"
+      },
+      {
+        "demode": false,
+        "price": "789.3200",
+        "time": "1756656000000"
+      },
+      {
+        "demode": false,
+        "price": "800.6600",
+        "time": "1756742400000"
+      },
+      {
+        "demode": false,
+        "price": "807.6400",
+        "time": "1756828800000"
+      },
+      {
+        "demode": false,
+        "price": "812.6700",
+        "time": "1756915200000"
+      },
+      {
+        "demode": false,
+        "price": "808.1600",
+        "time": "1757001600000"
+      },
+      {
+        "demode": false,
+        "price": "815.3700",
+        "time": "1757260800000"
+      },
+      {
+        "demode": false,
+        "price": "824.5100",
+        "time": "1757347200000"
+      },
+      {
+        "demode": false,
+        "price": "823.9400",
+        "time": "1757433600000"
+      },
+      {
+        "demode": false,
+        "price": "827.7200",
+        "time": "1757520000000"
+      },
+      {
+        "demode": false,
+        "price": "825.0400",
+        "time": "1757606400000"
+      },
+      {
+        "demode": false,
+        "price": "826.2100",
+        "time": "1757865600000"
+      },
+      {
+        "demode": false,
+        "price": "833.8800",
+        "time": "1757952000000"
+      },
+      {
+        "demode": false,
+        "price": "835.4400",
+        "time": "1758038400000"
+      },
+      {
+        "demode": false,
+        "price": "825.9000",
+        "time": "1758124800000"
+      },
+      {
+        "demode": false,
+        "price": "823.0300",
+        "time": "1758211200000"
+      },
+      {
+        "demode": false,
+        "price": "833.5200",
+        "time": "1758470400000"
+      },
+      {
+        "demode": false,
+        "price": "843.9900",
+        "time": "1758556800000"
+      },
+      {
+        "demode": false,
+        "price": "849.0600",
+        "time": "1758643200000"
+      },
+      {
+        "demode": false,
+        "price": "848.6900",
+        "time": "1758729600000"
+      },
+      {
+        "demode": false,
+        "price": "852.0100",
+        "time": "1758816000000"
+      },
+      {
+        "demode": false,
+        "price": "853.2300",
+        "time": "1759075200000"
+      },
+      {
+        "demode": false,
+        "price": "864.4700",
+        "time": "1759161600000"
+      },
+      {
+        "demode": false,
+        "price": "909.1200",
+        "time": "1759939200000"
+      },
+      {
+        "demode": false,
+        "price": "900.4500",
+        "time": "1760025600000"
+      },
+      {
+        "demode": false,
+        "price": "917.6200",
+        "time": "1760284800000"
+      },
+      {
+        "demode": false,
+        "price": "932.3800",
+        "time": "1760371200000"
+      },
+      {
+        "demode": false,
+        "price": "942.5200",
+        "time": "1760457600000"
+      },
+      {
+        "demode": false,
+        "price": "958.7400",
+        "time": "1760544000000"
+      },
+      {
+        "demode": false,
+        "price": "986.4600",
+        "time": "1760630400000"
+      },
+      {
+        "demode": false,
+        "price": "974.7400",
+        "time": "1760889600000"
+      },
+      {
+        "demode": false,
+        "price": "993.6400",
+        "time": "1760976000000"
+      },
+      {
+        "demode": false,
+        "price": "942.2900",
+        "time": "1761062400000"
+      },
+      {
+        "demode": false,
+        "price": "938.3200",
+        "time": "1761148800000"
+      },
+      {
+        "demode": false,
+        "price": "941.9500",
+        "time": "1761235200000"
+      },
+      {
+        "demode": false,
+        "price": "931.8400",
+        "time": "1761494400000"
+      },
+      {
+        "demode": false,
+        "price": "910.3500",
+        "time": "1761580800000"
+      },
+      {
+        "demode": false,
+        "price": "900.7500",
+        "time": "1761667200000"
+      },
+      {
+        "demode": false,
+        "price": "895.3700",
+        "time": "1761753600000"
+      },
+      {
+        "demode": false,
+        "price": "918.8600",
+        "time": "1761840000000"
+      },
+      {
+        "demode": false,
+        "price": "914.0000",
+        "time": "1762099200000"
+      },
+      {
+        "demode": false,
+        "price": "916.7800",
+        "time": "1762185600000"
+      },
+      {
+        "demode": false,
+        "price": "902.4400",
+        "time": "1762272000000"
+      },
+      {
+        "demode": false,
+        "price": "911.8100",
+        "time": "1762358400000"
+      },
+      {
+        "demode": false,
+        "price": "909.9600",
+        "time": "1762444800000"
+      },
+      {
+        "demode": false,
+        "price": "924.5400",
+        "time": "1762704000000"
+      },
+      {
+        "demode": false,
+        "price": "946.5400",
+        "time": "1762790400000"
+      },
+      {
+        "demode": false,
+        "price": "944.7700",
+        "time": "1762876800000"
+      },
+      {
+        "demode": false,
+        "price": "955.9600",
+        "time": "1762963200000"
+      },
+      {
+        "demode": false,
+        "price": "952.2800",
+        "time": "1763049600000"
+      },
+      {
+        "demode": false,
+        "price": "932.1800",
+        "time": "1763308800000"
+      },
+      {
+        "demode": false,
+        "price": "917.0100",
+        "time": "1763395200000"
+      },
+      {
+        "demode": false,
+        "price": "925.4400",
+        "time": "1763481600000"
+      },
+      {
+        "demode": false,
+        "price": "932.6900",
+        "time": "1763568000000"
+      },
+      {
+        "demode": false,
+        "price": "928.6200",
+        "time": "1763654400000"
+      },
+      {
+        "demode": false,
+        "price": "922.2400",
+        "time": "1763913600000"
+      },
+      {
+        "demode": false,
+        "price": "939.4100",
+        "time": "1764000000000"
+      },
+      {
+        "demode": false,
+        "price": "941.2500",
+        "time": "1764086400000"
+      },
+      {
+        "demode": false,
+        "price": "939.9800",
+        "time": "1764172800000"
+      },
+      {
+        "demode": false,
+        "price": "948.0500",
+        "time": "1764259200000"
+      },
+      {
+        "demode": false,
+        "price": "960.0700",
+        "time": "1764518400000"
+      },
+      {
+        "demode": false,
+        "price": "954.1000",
+        "time": "1764604800000"
+      },
+      {
+        "demode": false,
+        "price": "952.2700",
+        "time": "1764691200000"
+      },
+      {
+        "demode": false,
+        "price": "951.2600",
+        "time": "1764777600000"
+      },
+      {
+        "demode": false,
+        "price": "950.2100",
+        "time": "1764864000000"
+      },
+      {
+        "demode": false,
+        "price": "948.3000",
+        "time": "1765123200000"
+      },
+      {
+        "demode": false,
+        "price": "948.3800",
+        "time": "1765209600000"
+      },
+      {
+        "demode": false,
+        "price": "951.4000",
+        "time": "1765296000000"
+      },
+      {
+        "demode": false,
+        "price": "957.2100",
+        "time": "1765382400000"
+      },
+      {
+        "demode": false,
+        "price": "961.7600",
+        "time": "1765468800000"
+      },
+      {
+        "demode": false,
+        "price": "972.8000",
+        "time": "1765728000000"
+      },
+      {
+        "demode": false,
+        "price": "968.4400",
+        "time": "1765814400000"
+      },
+      {
+        "demode": false,
+        "price": "972.4900",
+        "time": "1765900800000"
+      },
+      {
+        "demode": false,
+        "price": "973.1400",
+        "time": "1765987200000"
+      },
+      {
+        "demode": false,
+        "price": "972.0500",
+        "time": "1766073600000"
+      },
+      {
+        "demode": false,
+        "price": "984.0200",
+        "time": "1766332800000"
+      },
+      {
+        "demode": false,
+        "price": "1008.2200",
+        "time": "1766419200000"
+      },
+      {
+        "demode": false,
+        "price": "1014.2200",
+        "time": "1766505600000"
+      },
+      {
+        "demode": false,
+        "price": "1001.1400",
+        "time": "1766592000000"
+      },
+      {
+        "demode": false,
+        "price": "1008.3700",
+        "time": "1766678400000"
+      },
+      {
+        "demode": false,
+        "price": "1007.4300",
+        "time": "1766937600000"
+      },
+      {
+        "demode": false,
+        "price": "979.2700",
+        "time": "1767024000000"
+      },
+      {
+        "demode": false,
+        "price": "979.5200",
+        "time": "1767110400000"
+      },
+      {
+        "demode": false,
+        "price": "987.2700",
+        "time": "1767542400000"
+      },
+      {
+        "demode": false,
+        "price": "998.4100",
+        "time": "1767628800000"
+      },
+      {
+        "demode": false,
+        "price": "1000.6500",
+        "time": "1767715200000"
+      },
+      {
+        "demode": false,
+        "price": "997.9200",
+        "time": "1767801600000"
+      },
+      {
+        "demode": false,
+        "price": "1000.7200",
+        "time": "1767888000000"
+      },
+      {
+        "demode": false,
+        "price": "1020.3400",
+        "time": "1768147200000"
+      },
+      {
+        "demode": false,
+        "price": "1022.5600",
+        "time": "1768233600000"
+      },
+      {
+        "demode": false,
+        "price": "1032.7000",
+        "time": "1768320000000"
+      },
+      {
+        "demode": false,
+        "price": "1029.6700",
+        "time": "1768406400000"
+      },
+      {
+        "demode": false,
+        "price": "1028.7000",
+        "time": "1768492800000"
+      },
+      {
+        "demode": false,
+        "price": "1041.2300",
+        "time": "1768752000000"
+      },
+      {
+        "demode": false,
+        "price": "1043.4000",
+        "time": "1768838400000"
+      },
+      {
+        "demode": false,
+        "price": "1081.9800",
+        "time": "1768924800000"
+      },
+      {
+        "demode": false,
+        "price": "1074.0500",
+        "time": "1769011200000"
+      },
+      {
+        "demode": false,
+        "price": "1109.1200",
+        "time": "1769097600000"
+      },
+      {
+        "demode": false,
+        "price": "1136.4900",
+        "time": "1769356800000"
+      },
+      {
+        "demode": false,
+        "price": "1136.2800",
+        "time": "1769443200000"
+      },
+      {
+        "demode": false,
+        "price": "1166.8800",
+        "time": "1769529600000"
+      },
+      {
+        "demode": false,
+        "price": "1241.0000",
+        "time": "1769616000000"
+      },
+      {
+        "demode": false,
+        "price": "1191.6800",
+        "time": "1769702400000"
+      },
+      {
+        "demode": false,
+        "price": "1065.6900",
+        "time": "1769961600000"
+      }
+    ],
+    "status": "SUCCESS"
+  },
+  "success": true,
+  "resultCode": 0,
+  "resultMsg": "成功",
+  "channelEncrypt": 0
+}
