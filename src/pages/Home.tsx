@@ -17,7 +17,7 @@ export default function Home() {
   const [isCalendarOpen, setIsCalendarOpen] = useState(false)
   const year = dayjs().format('YYYY')
   const { data, loading, error } = useYearlyData(year)
-  const { dates: availableDates } = useAvailableDates()
+  const { dates: availableDates, loading: datesLoading } = useAvailableDates()
 
   const handlePointClick = (date: string) => {
     navigate(`/day/${date}`)
@@ -33,8 +33,9 @@ export default function Home() {
   // 将可用日期转换为 Date 对象集合
   const availableDateSet = new Set(availableDates)
 
-  // 禁用没有数据的日期
+  // 禁用没有数据的日期（如果索引还在加载则不禁用任何日期）
   const isDateDisabled = (date: Date) => {
+    if (datesLoading) return false
     const dateStr = dayjs(date).format('YYYY-MM-DD')
     return !availableDateSet.has(dateStr)
   }
