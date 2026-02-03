@@ -31,6 +31,7 @@ async function main() {
   const year = now.getFullYear().toString()
   const month = (now.getMonth() + 1).toString().padStart(2, '0')
   const day = now.getDate().toString().padStart(2, '0')
+  const dateStr = `${year}-${month}-${day}`
 
   // 获取当天金价走势
   console.log('Fetching today prices...')
@@ -46,6 +47,19 @@ async function main() {
   console.log('Fetching history prices...')
   const historyPrices = await fetchAPI('historyPrices', { reqData: { period: 'y' } })
   writeJSON(`data/yearly/${year}.json`, historyPrices)
+
+  // 更新可用日期索引
+  console.log('Updating available dates index...')
+  const indexPath = 'data/available-dates.json'
+  let availableDates: string[] = []
+  if (fs.existsSync(indexPath)) {
+    availableDates = JSON.parse(fs.readFileSync(indexPath, 'utf-8'))
+  }
+  if (!availableDates.includes(dateStr)) {
+    availableDates.push(dateStr)
+    availableDates.sort()
+    writeJSON(indexPath, availableDates)
+  }
 
   console.log('Done!')
 }

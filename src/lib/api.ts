@@ -19,3 +19,9 @@ export async function fetchLatestPrice(date: string) {
   if (!response.ok) throw new Error('Failed to fetch latest price')
   return response.json()
 }
+
+export async function fetchAvailableDates(): Promise<string[]> {
+  const response = await fetch(`${GITHUB_RAW_BASE}/available-dates.json`)
+  if (!response.ok) return []
+  return response.json()
+}

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { fetchYearlyData, fetchDailyData, fetchLatestPrice } from '../lib/api'
+import { fetchYearlyData, fetchDailyData, fetchLatestPrice, fetchAvailableDates } from '../lib/api'
 
 export function useYearlyData(year: string) {
   const [data, setData] = useState<any>(null)
@@ -31,4 +31,17 @@ export function useDailyData(date: string) {
   }, [date])
 
   return { data, loading, error }
+}
+
+export function useAvailableDates() {
+  const [dates, setDates] = useState<string[]>([])
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    fetchAvailableDates()
+      .then(setDates)
+      .finally(() => setLoading(false))
+  }, [])
+
+  return { dates, loading }
 }

@@ -16,6 +16,7 @@
     "echarts-for-react": "^3.0.6",
     "lucide-react": "^0.563.0",
     "react": "^19.2.0",
+    "react-day-picker": "^9.13.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.13.0"
   },
@@ -37,5 +38,6 @@
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.46.4",
     "vite": "^7.2.4"
-  }
+  },
+  "packageManager": "pnpm@10.26.2+sha512.0e308ff2005fc7410366f154f625f6631ab2b16b1d2e70238444dd6ae9d630a8482d92a451144debc492416896ed16f7b114a86ec68b8404b2443869e68ffda6"
 }

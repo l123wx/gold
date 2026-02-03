@@ -1,9 +1,11 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { ArrowUpRight, ArrowDownRight, ChevronDown } from 'lucide-react'
+import { ArrowUpRight, ArrowDownRight, Calendar } from 'lucide-react'
+import { DayPicker } from 'react-day-picker'
 import dayjs from 'dayjs'
-import { useYearlyData } from '../hooks/useGoldPrice'
+import { useYearlyData, useAvailableDates } from '../hooks/useGoldPrice'
 import { PriceChart } from '../components/PriceChart'
+import 'react-day-picker/style.css'
 
 interface YearlyDataItem {
   price: string
@@ -12,17 +14,29 @@ interface YearlyDataItem {
 
 export default function Home() {
   const navigate = useNavigate()
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false)
+  const [isCalendarOpen, setIsCalendarOpen] = useState(false)
   const year = dayjs().format('YYYY')
   const { data, loading, error } = useYearlyData(year)
+  const { dates: availableDates } = useAvailableDates()
 
   const handlePointClick = (date: string) => {
     navigate(`/day/${date}`)
   }
 
-  const handleDateSelect = (date: string) => {
-    setIsDropdownOpen(false)
-    navigate(`/day/${date}`)
+  const handleDateSelect = (date: Date | undefined) => {
+    if (date) {
+      setIsCalendarOpen(false)
+      navigate(`/day/${dayjs(date).format('YYYY-MM-DD')}`)
+    }
+  }
+
+  // 将可用日期转换为 Date 对象集合
+  const availableDateSet = new Set(availableDates)
+
+  // 禁用没有数据的日期
+  const isDateDisabled = (date: Date) => {
+    const dateStr = dayjs(date).format('YYYY-MM-DD')
+    return !availableDateSet.has(dateStr)
   }
 
   if (loading) {
@@ -82,23 +96,20 @@ export default function Home() {
       <div className="mb-4 relative">
         <label className="text-sm text-muted-foreground mr-2">查看指定日期:</label>
         <button
-          onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+          onClick={() => setIsCalendarOpen(!isCalendarOpen)}
           className="border rounded px-3 py-1 h-9 inline-flex items-center gap-2 hover:bg-gray-50"
         >
+          <Calendar className="w-4 h-4" />
           选择日期
-          <ChevronDown className="w-4 h-4" />
         </button>
-        {isDropdownOpen && (
-          <div className="absolute top-full left-0 mt-1 bg-white border rounded-lg shadow-lg z-10 max-h-64 overflow-y-auto min-w-48">
-            {[...chartData].reverse().map((item) => (
-              <button
-                key={item.name}
-                onClick={() => handleDateSelect(item.name)}
-                className="w-full px-4 py-2 text-left hover:bg-gray-50 text-sm"
-              >
-                {item.name}
-              </button>
-            ))}
+        {isCalendarOpen && (
+          <div className="absolute top-full left-0 mt-1 bg-white border rounded-lg shadow-lg z-10 p-2">
+            <DayPicker
+              mode="single"
+              onSelect={handleDateSelect}
+              disabled={isDateDisabled}
+              defaultMonth={new Date()}
+            />
           </div>
         )}
       </div>
