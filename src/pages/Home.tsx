@@ -1,5 +1,6 @@
+import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { ArrowUpRight, ArrowDownRight } from 'lucide-react'
+import { ArrowUpRight, ArrowDownRight, ChevronDown } from 'lucide-react'
 import dayjs from 'dayjs'
 import { useYearlyData } from '../hooks/useGoldPrice'
 import { PriceChart } from '../components/PriceChart'
@@ -11,6 +12,7 @@ interface YearlyDataItem {
 
 export default function Home() {
   const navigate = useNavigate()
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false)
   const year = dayjs().format('YYYY')
   const { data, loading, error } = useYearlyData(year)
 
@@ -18,11 +20,9 @@ export default function Home() {
     navigate(`/day/${date}`)
   }
 
-  const handleDateChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const date = e.target.value
-    if (date) {
-      navigate(`/day/${date}`)
-    }
+  const handleDateSelect = (date: string) => {
+    setIsDropdownOpen(false)
+    navigate(`/day/${date}`)
   }
 
   if (loading) {
@@ -79,14 +79,28 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="mb-4 flex items-center gap-2">
-        <label className="text-sm text-muted-foreground">查看指定日期:</label>
-        <input
-          type="date"
-          onChange={handleDateChange}
-          className="border rounded px-2 py-1 h-9"
-          max={dayjs().format('YYYY-MM-DD')}
-        />
+      <div className="mb-4 relative">
+        <label className="text-sm text-muted-foreground mr-2">查看指定日期:</label>
+        <button
+          onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+          className="border rounded px-3 py-1 h-9 inline-flex items-center gap-2 hover:bg-gray-50"
+        >
+          选择日期
+          <ChevronDown className="w-4 h-4" />
+        </button>
+        {isDropdownOpen && (
+          <div className="absolute top-full left-0 mt-1 bg-white border rounded-lg shadow-lg z-10 max-h-64 overflow-y-auto min-w-48">
+            {[...chartData].reverse().map((item) => (
+              <button
+                key={item.name}
+                onClick={() => handleDateSelect(item.name)}
+                className="w-full px-4 py-2 text-left hover:bg-gray-50 text-sm"
+              >
+                {item.name}
+              </button>
+            ))}
+          </div>
+        )}
       </div>
 
       <div className="bg-white rounded-lg border p-4">
