@@ -116,7 +116,7 @@ export default function DayDetail() {
 
       <div className="bg-white rounded-lg border p-4">
         <h2 className="text-lg font-semibold mb-4">当日金价走势</h2>
-        <PriceChart data={chartData} />
+        <PriceChart data={chartData} mode="daily" />
       </div>
     </div>
   )
