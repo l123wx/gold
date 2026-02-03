@@ -10,3 +10,44 @@ body {
   background-color: white;
   color: var(--color-primary);
 }
+
+/* 可点击按钮样式 */
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+/* 日期选择器样式 */
+.rdp-day {
+  border-radius: 6px;
+  transition: all 0.15s ease;
+}
+
+/* 可选日期 - 更明显的样式 */
+.rdp-day:not(.rdp-disabled):not(.rdp-selected) {
+  background-color: #fef3c7;
+  color: #92400e;
+  font-weight: 500;
+}
+
+.rdp-day:not(.rdp-disabled):not(.rdp-selected):hover {
+  background-color: #fcd34d;
+  color: #78350f;
+}
+
+/* 禁用日期 - 更淡的样式 */
+.rdp-day.rdp-disabled {
+  color: #d1d5db;
+  background-color: transparent;
+}
+
+/* 选中日期 */
+.rdp-day.rdp-selected {
+  background-color: #f59e0b;
+  color: white;
+  font-weight: 600;
+}
+
+/* 今天 */
+.rdp-day.rdp-today:not(.rdp-selected) {
+  border: 2px solid #f59e0b;
+}

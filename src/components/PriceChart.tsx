@@ -3,11 +3,10 @@ import type { EChartsOption } from 'echarts'
 
 interface PriceChartProps {
   data: Array<{ name: string; value: [string, string] }>
-  onPointClick?: (date: string) => void
   mode?: 'yearly' | 'daily'
 }
 
-export function PriceChart({ data, onPointClick, mode = 'yearly' }: PriceChartProps) {
+export function PriceChart({ data, mode = 'yearly' }: PriceChartProps) {
   const isDaily = mode === 'daily'
 
   // 转换数据为时间轴格式
@@ -91,7 +90,7 @@ export function PriceChart({ data, onPointClick, mode = 'yearly' }: PriceChartPr
         show: true,
         xAxisIndex: 0,
         filterMode: 'filter',
-        start: 80,
+        start: 0,
         end: 100,
         bottom: 10,
         height: 20,
@@ -116,7 +115,7 @@ export function PriceChart({ data, onPointClick, mode = 'yearly' }: PriceChartPr
       {
         type: 'inside',
         xAxisIndex: 0,
-        start: 80,
+        start: 0,
         end: 100,
         zoomOnMouseWheel: true,
         moveOnMouseMove: true
@@ -126,7 +125,7 @@ export function PriceChart({ data, onPointClick, mode = 'yearly' }: PriceChartPr
       {
         name: '金价',
         type: 'line',
-        smooth: true,
+        smooth: false,
         showSymbol: false,
         emphasis: {
           scale: true
@@ -188,19 +187,10 @@ export function PriceChart({ data, onPointClick, mode = 'yearly' }: PriceChartPr
     ],
   }
 
-  const handleClick = (params: any) => {
-    if (onPointClick && params.data) {
-      const time = new Date(params.data[0])
-      const date = `${time.getFullYear()}-${String(time.getMonth() + 1).padStart(2, '0')}-${String(time.getDate()).padStart(2, '0')}`
-      onPointClick(date)
-    }
-  }
-
   return (
     <ReactECharts
       option={option}
       style={{ height: '400px', width: '100%' }}
-      onEvents={{ click: handleClick }}
     />
   )
 }
