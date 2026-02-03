@@ -37,6 +37,8 @@ export function PriceChart({ data, onPointClick, mode = 'yearly' }: PriceChartPr
     if (index === maxIndex) {
       return {
         value: price,
+        symbol: 'circle',
+        symbolSize: 10,
         itemStyle: { color: '#ef4444' },
         label: {
           show: true,
@@ -44,12 +46,15 @@ export function PriceChart({ data, onPointClick, mode = 'yearly' }: PriceChartPr
           formatter: `最高 ¥${price.toFixed(2)}`,
           color: '#ef4444',
           fontSize: 12,
+          fontWeight: 'bold' as const,
         },
       }
     }
     if (index === minIndex) {
       return {
         value: price,
+        symbol: 'circle',
+        symbolSize: 10,
         itemStyle: { color: '#22c55e' },
         label: {
           show: true,
@@ -57,6 +62,7 @@ export function PriceChart({ data, onPointClick, mode = 'yearly' }: PriceChartPr
           formatter: `最低 ¥${price.toFixed(2)}`,
           color: '#22c55e',
           fontSize: 12,
+          fontWeight: 'bold' as const,
         },
       }
     }
