@@ -26,6 +26,43 @@ export function PriceChart({ data, onPointClick, mode = 'yearly' }: PriceChartPr
 
   const prices = data.map(item => parseFloat(item.value[1]))
 
+  // 找出最高点和最低点的索引
+  const maxPrice = Math.max(...prices)
+  const minPrice = Math.min(...prices)
+  const maxIndex = prices.indexOf(maxPrice)
+  const minIndex = prices.indexOf(minPrice)
+
+  // 构建带标记的数据
+  const seriesData = prices.map((price, index) => {
+    if (index === maxIndex) {
+      return {
+        value: price,
+        itemStyle: { color: '#ef4444' },
+        label: {
+          show: true,
+          position: 'top' as const,
+          formatter: `最高 ¥${price.toFixed(2)}`,
+          color: '#ef4444',
+          fontSize: 12,
+        },
+      }
+    }
+    if (index === minIndex) {
+      return {
+        value: price,
+        itemStyle: { color: '#22c55e' },
+        label: {
+          show: true,
+          position: 'bottom' as const,
+          formatter: `最低 ¥${price.toFixed(2)}`,
+          color: '#22c55e',
+          fontSize: 12,
+        },
+      }
+    }
+    return price
+  })
+
   const option: EChartsOption = {
     tooltip: {
       trigger: 'axis',
@@ -41,6 +78,7 @@ export function PriceChart({ data, onPointClick, mode = 'yearly' }: PriceChartPr
       left: '3%',
       right: '4%',
       bottom: '3%',
+      top: '15%',
       containLabel: true,
     },
     xAxis: {
@@ -59,7 +97,7 @@ export function PriceChart({ data, onPointClick, mode = 'yearly' }: PriceChartPr
       {
         type: 'line',
         smooth: true,
-        data: prices,
+        data: seriesData,
         areaStyle: {
           opacity: 0.1,
         },
