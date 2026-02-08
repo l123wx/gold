@@ -8,8 +8,8 @@
       "price": "1111.02",
       "yesterdayPrice": "1111.02",
       "upAndDownAmt": "0.00",
-      "time": "1770400799000",
-      "id": 78450787
+      "id": 78450787,
+      "time": "1770400799000"
     },
     "status": "SUCCESS"
   },
