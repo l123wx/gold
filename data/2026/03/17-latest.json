@@ -4,12 +4,12 @@
       "upAndDownRate": "+0.15%",
       "productSku": "P005",
       "demode": false,
-      "priceNum": "BB13424E4FB0908A323CB80AF773CAAA",
-      "price": "1112.49",
+      "priceNum": "A4ADD43A76E7A75120172F0DAC8EA172",
+      "price": "1112.46",
       "yesterdayPrice": "1110.81",
-      "upAndDownAmt": "+1.68",
-      "id": 79432219,
-      "time": "1773680046000"
+      "upAndDownAmt": "+1.65",
+      "id": 79432290,
+      "time": "1773680127000"
     },
     "status": "SUCCESS"
   },
