@@ -1210,6 +1210,11 @@
         "demode": false,
         "price": "984.4300",
         "time": "1774540800000"
+      },
+      {
+        "demode": false,
+        "price": "997.3800",
+        "time": "1774800000000"
       }
     ],
     "status": "SUCCESS"
