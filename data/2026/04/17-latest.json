@@ -1,0 +1,20 @@
+{
+  "resultData": {
+    "datas": {
+      "upAndDownRate": "-0.33%",
+      "productSku": "P005",
+      "demode": false,
+      "priceNum": "31E50CF4888EA91AF720D23B87F0E809",
+      "price": "1052.05",
+      "yesterdayPrice": "1055.57",
+      "upAndDownAmt": "-3.52",
+      "time": "1776358927000",
+      "id": 80647962
+    },
+    "status": "SUCCESS"
+  },
+  "success": true,
+  "resultCode": 0,
+  "resultMsg": "成功",
+  "channelEncrypt": 0
+}
