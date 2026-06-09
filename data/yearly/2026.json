@@ -3,11 +3,6 @@
     "datas": [
       {
         "demode": false,
-        "price": "763.3300",
-        "time": "1749398400000"
-      },
-      {
-        "demode": false,
         "price": "769.7300",
         "time": "1749484800000"
       },
@@ -1215,6 +1210,11 @@
         "demode": false,
         "price": "943.6100",
         "time": "1780848000000"
+      },
+      {
+        "demode": false,
+        "price": "945.0200",
+        "time": "1780934400000"
       }
     ],
     "status": "SUCCESS"
