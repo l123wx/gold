@@ -3,7 +3,7 @@
     "datas": {
       "upAndDownRate": "-0.21%",
       "productSku": "P005",
-      "demode": false,
+      "demode": true,
       "priceNum": "E7A79410B472FBDD10A644FBA3680C57",
       "price": "878.19",
       "yesterdayPrice": "880.00",
