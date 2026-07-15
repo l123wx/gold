@@ -1,15 +1,15 @@
 {
   "resultData": {
     "datas": {
-      "upAndDownRate": "-0.11%",
+      "upAndDownRate": "-0.14%",
       "productSku": "21001001000001",
       "demode": false,
-      "priceNum": "244890F5967629D540B40E66FC5AE2B1",
-      "price": "880.45",
+      "priceNum": "8BFA95A9F3C46B086D804AB55B43BE66",
+      "price": "880.11",
       "yesterdayPrice": "881.38",
-      "upAndDownAmt": "-0.93",
-      "time": "1784134994000",
-      "id": 8752987
+      "upAndDownAmt": "-1.27",
+      "time": "1784135149000",
+      "id": 8753721
     },
     "status": "SUCCESS"
   },
