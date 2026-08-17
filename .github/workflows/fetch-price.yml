@@ -1,10 +1,6 @@
 name: Fetch Gold Price
 
 on:
-  schedule:
-    - cron: '55 15 * * *'
-    - cron: '57 15 * * *'
-    - cron: '59 15 * * *'
   workflow_dispatch:
 
 env:
